@@ -10,7 +10,7 @@ const About = () => {
       >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h2 className="text-4xl text-black font-bold lg:text-5xl leading-9 sm:text-4xl sm:leading-tight">
-            About Us
+            About Me
           </h2>
           <p className="mb-8 my-8 text-3xl leading-relaxed">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum modi

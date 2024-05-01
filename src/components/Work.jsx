@@ -6,7 +6,7 @@ import work3 from '../assets/work3.png'
 const Work = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="py-20" id='work'>
         <h2 className="text-4xl text-black text-center font-bold lg:text-5xl leading-9 sm:text-4xl sm:leading-tight">
           Work
         </h2>

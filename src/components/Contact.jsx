@@ -8,18 +8,21 @@ const Contact = () => {
             <h2 className="text-4xl text-black text-center font-bold lg:text-5xl leading-9 sm:text-4xl sm:leading-tight py-8">
               Contact Me
             </h2>
-            <form className="flex flex-col items-center">
-              <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
+            <form action='https://getform.io/f/zazkrmgb' method='POST'
+            className="flex flex-col items-center">
+              <div className="md:w-5/6 lg:w-2/3 xl:w-1/2">
                 <div className="flex flex-col md:flex-row">
                   <input
                     id="name"
                     type="text"
+                    name='putName'
                     className="my-2 py-2 px-4 rounded-md bg-[#4b5563] text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600"
                     placeholder="Name"
                   />
                   <input
                     id="email"
                     type="email"
+                    name='email'
                     className="my-2 py-2 px-4 rounded-md bg-[#4b5563] text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600"
                     placeholder="Email"
                   />

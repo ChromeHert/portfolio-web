@@ -9,7 +9,7 @@ import { FaReact } from "react-icons/fa6";
 const Skills = () => {
   return (
     <div>
-      <section class="py-10 leading-6 text-gray-100 sm:py-16 lg:py-24">
+      <section class="py-10 leading-6 text-gray-100 sm:py-16 lg:py-24" id='skills'>
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-xl text-center">
             <h2 class="text-4xl text-black font-bold lg:text-5xl leading-9 sm:text-4xl sm:leading-tight">
