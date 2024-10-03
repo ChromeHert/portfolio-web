@@ -2,6 +2,8 @@ import React from 'react';
 import work1 from '../assets/work1.png'
 import work2 from '../assets/work2.png'
 import work3 from '../assets/work3.png'
+import work4 from '../assets/work4.png';
+import work5 from '../assets/work5.png';
 import project4 from '../assets/to-doImg.png'
 
 const Work = () => {
@@ -106,15 +108,34 @@ const Work = () => {
               <img
                 className="max-h-40 w-full object-cover"
                 alt="featured image"
-                src={work3}
+                src={work4}
               />
               <div className="w-full bg-white p-4">
-                <p className="text-md font-medium text-indigo-500">Weather App</p>
+                <p className="text-md font-medium text-indigo-500">Dashboard</p>
                 <p className="mb-2 text-xl font-medium text-gray-800">
-                  A weather information website (Tailwind and React JS)
+                  Administrator panel
                 </p>
-                <a href="https://eric-weather-app.netlify.app">
-                Built with OpenWeatherApp API
+                <a href="https://admcontrolscreen.netlify.app/">
+                React JS App
+                </a>
+              </div>
+            </a>
+          </article>
+
+          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-lg pb-2 shadow-lg transition-transform duration-200 hover:translate-y-2">
+            <a href="#" className="block h-full w-full">
+              <img
+                className="max-h-40 w-full object-cover"
+                alt="featured image"
+                src={work5}
+              />
+              <div className="w-full bg-white p-4">
+                <p className="text-md font-medium text-indigo-500">AsapMoves</p>
+                <p className="mb-2 text-xl font-medium text-gray-800">
+                  A landing page website for logistics company (Tailwind and React JS)
+                </p>
+                <a href="https://asapmoves.netlify.app/">
+                React JS app
                 </a>
               </div>
             </a>

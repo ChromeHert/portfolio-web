@@ -11,7 +11,7 @@ const Navbar = () => {
           href="#"
           className="flex items-center whitespace-nowrap text-2xl font-black"
         >
-          @Ola
+          @Olaoluwa
         </a>
         <input type="checkbox" className="peer hidden" id="navbar-open" />
         <label
